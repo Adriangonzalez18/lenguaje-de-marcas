@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 3%;
+    padding: 1%;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(244, 240, 252);
+    font-size: 100%;
+    flex-direction: column;
+    justify-content:space-between
+  }
+  .hola {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+.cuadrado{
+    min-width: 1cm;
+    max-width: 1cm;
+    min-height: 1cm;
+    max-height: 1cm;
+
+}
+.div1{
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+.div2{
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+.div17{
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+.div6{
+    font-size: 20px;
+}
+.div10{
+    font-size: 20px;
+}
+.div14{
+    font-size: 20px;
+}
+.linea{
+    width: 65% ; 
+    min-width: 15cm ;
+    height: 1; 
+}
+.total{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(197, 197, 197);
+    min-width: 4cm;
+    max-width: 7cm;
+    min-height: 2cm;
+    max-height: 3cm;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; min-width: 5cm; max-width: 40cm ;}
+    .div2 { grid-area: 1 / 2 / 2 / 4; min-width: 5cm; max-width: 40cm;}
+    .div3 { grid-area: 1 / 3 / 2 / 5; min-width: 5cm; max-width: 40cm;}
+    .div4 { grid-area: 1 / 4 / 2 / 5; min-width: 5cm; max-width: 40cm;}
+    .div5 { grid-area: 2 / 1 / 4 / 2; min-width: 5cm; max-width: 40cm;}
+    .div6 { grid-area: 2 / 2 / 4 / 4; min-width: 1cm; max-width: 40cm;}
+    .div7 { grid-area: 2 / 3 / 4 / 5; min-width: 6cm; max-width: 40cm;}
+    .div8 { grid-area: 2 / 4 / 4 / 5; min-width: 6cm; max-width: 40cm;}
+    .div9 { grid-area: 4 / 1 / 6 / 2; min-width: 5cm; max-width: 40cm;}
+    .div10 { grid-area: 4 / 2 / 6 / 4; min-width: 1cm; max-width: 40cm;}
+    .div11 { grid-area: 4 / 3 / 6 / 5; min-width: 6cm; max-width: 40cm;}
+    .div12 { grid-area: 4 / 4 / 6 / 5; min-width: 6cm; max-width: 40cm;}
+    .div13 { grid-area: 6 / 1 / 8 / 2; min-width: 6cm; max-width: 40cm;}
+    .div14 { grid-area: 6 / 2 / 8 / 4; min-width: 6cm; max-width: 40cm;}
+    .div15 { grid-area: 6 / 3 / 8 / 5; min-width: 6cm; max-width: 40cm;}
+    .div16 { grid-area: 6 / 4 / 8 / 5; min-width: 6cm; max-width: 40cm;} 
+    .div17 { grid-area: 1 / 6 / 1 / 6; min-width: 6cm; max-width: 40cm;}
+    .div18 { grid-area: 2 / 6 / 2 / 6; min-width: 6cm; max-width: 40cm;}
+    .div19 { grid-area: 2 / 7 / 2 / 7; min-width: 6cm; max-width: 40cm;}
